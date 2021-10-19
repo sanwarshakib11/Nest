@@ -44,6 +44,21 @@ $(function(){
         prevArrow: '<i class="fas fa-arrow-left  ftr_slider_icon"></i>',
         nextArrow: '<i class="fas fa-arrow-right ftr_slider_icon"></i>',
     })
+    // daily best sells slider
+    $('.popular_product_slider').slick({
+        slidesToShow: 5,
+        arrows: false,
+    });
+    // daily best sells slider
+    $('#daily_sells_slider').slick({
+        autoplay: true,
+        autoplaySpeed: 1000,
+        speed: 1000,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        prevArrow: '<i class="fas fa-chevron-right banner_slider_icon"></i>',
+        nextArrow: '<i class="fas fa-chevron-left banner_slider_icon"></i>',
+    });
 })
 // wow js plugin
 new WOW().init();

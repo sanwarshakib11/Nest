@@ -56,8 +56,8 @@ $(function(){
         speed: 1000,
         slidesToShow: 4,
         slidesToScroll: 1,
-        prevArrow: '<i class="fas fa-chevron-right banner_slider_icon"></i>',
-        nextArrow: '<i class="fas fa-chevron-left banner_slider_icon"></i>',
+        prevArrow: '<i class="fas fa-chevron-right daily_sells_slider_icon"></i>',
+        nextArrow: '<i class="fas fa-chevron-left daily_sells_slider_icon"></i>',
     });
 })
 // wow js plugin

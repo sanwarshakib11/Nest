@@ -420,7 +420,7 @@ header ul li a:hover {
   padding: 20px 40px;
   border-radius: 40px;
   background-color: var(--clr-hover);
-  color: var(--clr-white);
+  color: var(--clr-white) !important;
 }
 /* featured categories  section starts */
 /* featured categories menu section starts */
@@ -1020,6 +1020,31 @@ header ul li a:hover {
   background-color: var(--clr-hover);
   height: 5px;
   width: 90%;
+}
+.daily_sells_slider_icon {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  bottom: 50%;
+  z-index: 999;
+  color: var(--clr-header);
+  background-color: var(--clr-after);
+  transition: 0.5s ease;
+}
+ #daily_sells .fa-chevron-left {
+  left: 5%;
+}
+ #daily_sells .fa-chevron-right {
+  left: 90%;
+}
+.daily_sells_slider_icon:hover {
+  background-color: var(--clr-hover);
+  color: var(--clr-white);
 }
 /* daily best sells  ends*/
 /* Preloader Section Starts */

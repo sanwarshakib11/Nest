@@ -29,7 +29,7 @@ $(function(){
         //Back To Top Ends
         //Banner Slider Activation
 
-    $('#banner').slick({
+    $('.banner_slider').slick({
         fade: true,
         autoplay: true,
         autoplaySpeed: 1000,

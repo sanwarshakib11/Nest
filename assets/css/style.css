@@ -334,19 +334,12 @@ header ul li a:hover {
 /* main header right section ends */
 /* main header section ends */
 /* banner part start */
-#banner {
-  width: 1496px;
-  margin: auto;
-  top: 30px;
-  left: 0;
-  position: relative;
-  z-index: 1;
-}
 #banner .banner-details {
   background-size: cover;
   background-position: center;
   border-radius: 30px;
   transition: 0.7s ease-in-out;
+  margin: 30px 12px 5px;
 }
 #banner::before {
   content: "";

@@ -337,19 +337,14 @@ header ul li a:hover {
 #banner .banner-details {
   background-size: cover;
   background-position: center;
+  height: 538px;
   border-radius: 30px;
   transition: 0.7s ease-in-out;
   margin: 30px 12px 5px;
+  padding-left: 100px;
+  padding-top: 60px;
 }
-#banner::before {
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-  display: block;
-}
-.banner_slider_icon {
+#banner .banner_slider_icon {
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -371,43 +366,40 @@ header ul li a:hover {
   opacity: 1;
   visibility: visible;
 }
-.fa-chevron-right {
+#banner .fa-chevron-right {
   left: 95%;
 }
-.banner_slider_icon:hover {
+#banner .banner_slider_icon:hover {
   background-color: var(--clr-hover);
   color: var(--clr-white);
 }
-.banner-details {
-  padding: 100px;
-}
-.banner-details h1 {
+#banner .banner-details h1 {
   font-size: 72px;
   color: var(--clr-text);
   font-family: var(--quicksand);
   font-weight: 700;
   margin-bottom: 40px;
 }
-.banner-details p {
+#banner .banner-details p {
   font-size: 30px;
   font-weight: 400;
   color: var(--clr-header);
   line-height: 24px;
   margin-bottom: 65px;
 }
-.email_box i {
+#banner .email_box i {
   position: absolute;
-  bottom: 22%;
+  bottom: 25%;
   left: 8%;
   z-index: 1;
 }
-.email_box input {
+#banner .email_box input {
   border: var(--clr-white);
   position: relative;
   padding: 20px 80px;
   border-radius: 40px;
 }
-.subscribe button {
+#banner .subscribe button {
   position: absolute;
   left: 26%;
   padding: 20px 40px;
@@ -1040,6 +1032,137 @@ header ul li a:hover {
   color: var(--clr-white);
 }
 /* daily best sells  ends*/
+/* banner2 section starts */
+#banner2 {
+  background-image: url(../img/slider-1.png);
+  background-position: center;
+  background-size: cover;
+  height: 340px;
+  margin: 0 12px;
+  border-radius: 30px;
+}
+#banner2 .banner-details {
+  padding-left: 100px;
+  padding-top: 40px;
+}
+#banner2 .banner-details h1 {
+  font-size: 48px;
+  color: var(--clr-text);
+  font-family: var(--quicksand);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+#banner2 .banner-details p {
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--clr-header);
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+#banner2 .banner-details p span {
+  color: var(--clr-hover);
+}
+#banner2 .email_box {
+  position: relative;
+}
+#banner2 .email_box i {
+  position: absolute;
+  bottom: 35%;
+  left: 8%;
+  z-index: 1;
+}
+#banner2 .email_box input {
+  border: var(--clr-white);
+  position: relative;
+  padding: 20px 80px;
+  border-radius: 40px;
+}
+#banner2 .subscribe button {
+  position: absolute;
+  left: 26%;
+  padding: 20px 40px;
+  border-radius: 40px;
+  background-color: var(--clr-hover);
+  color: var(--clr-white) !important;
+}
+/* banner2 section ends */
+/* service section starts  */
+#service {
+  margin: 30px 0;
+}
+#service .service_wrapper {
+  background-color: var(--clr-border);
+  border-radius: 10px;
+  margin-left: 10px;
+}
+#service .service_wrapper_img img {
+  display: inline-block;
+  width: 100%;
+} 
+#service .service_wrapper_content h4 {
+  font-weight: 400;
+  font-size: 24px;
+  color: var(--clr-text);
+}
+#service .service_wrapper_content span {
+  font-size: 14px;
+  color: var(--clr-text1);
+}
+/* service section ends */
+/* footer section stars */
+#footer {
+  margin: 20px 0;
+}
+#footer .footer_middle_icon i {
+  font-size: 40px;
+  transform: rotate(-45deg);
+  color: var(--clr-text1);
+  margin-right: 10px;
+}
+#footer .footer_middle_content span {
+  font-weight: 700;
+  color: var(--clr-hover);
+  font-size: 24px;
+}
+#footer .footer_middle_content h6 {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--clr-text1);
+}
+#footer .footer_left_wrapper h5 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--clr-text1);
+}
+#footer .footer_left_wrapper h5 span {
+  color: var(--clr-hover);
+  font-weight: 700;
+}
+#footer .footer_right_social_link ul li {
+  display: inline-block;
+  padding: 0 5px;
+}
+#footer .footer_right_social_link ul li a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: var(--clr-hover);
+  color: var(--clr-white);
+  transition: all ease-in-out .5s;
+}
+#footer .footer_right_social_link ul li :hover  a {
+  color: var(--clr-after);
+}
+#footer .footer_right_content h5 {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--clr-text1);
+}
+/* footer section ends */
 /* Preloader Section Starts */
 #preloader {
   width: 100%;

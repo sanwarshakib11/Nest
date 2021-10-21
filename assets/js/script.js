@@ -59,6 +59,11 @@ $(function(){
         prevArrow: '<i class="fas fa-chevron-right daily_sells_slider_icon"></i>',
         nextArrow: '<i class="fas fa-chevron-left daily_sells_slider_icon"></i>',
     });
+    // service slider section 
+    $(".service_slider").slick({
+        slidesToShow: 5,
+        arrows: false,
+    })
 })
 // wow js plugin
 new WOW().init();

@@ -67,3 +67,4 @@ $(function(){
 })
 // wow js plugin
 new WOW().init();
+// countdown section 
